@@ -1,5 +1,93 @@
 # CHANGELOG
 
+<!-- version list -->
+
+## v0.10.1 (2025-09-20)
+
+### Bug Fixes
+
+- Issues with scheduler OP
+  ([`c8541e7`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/c8541e7f8bb5c4743ba6f8cd20a9e9e08bb30658))
+
+
+## v0.10.0 (2025-09-19)
+
+### Bug Fixes
+
+- Support multiple directories for select confs
+  ([`6168d73`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/6168d7350a380cf94ee54a76b8eb3a6ef150524b))
+
+### Features
+
+- Add calypso support
+  ([`1d1a625`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/1d1a625e720e2675cb1be7955d79721eb45a97b3))
+
+
+## v0.9.3 (2025-09-16)
+
+### Bug Fixes
+
+- Add support for atomic magmom in VASP
+  ([`c65f0d3`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/c65f0d32127ec07eb22214a26419d54b7feb015d))
+
+- Add tests for ase md components
+  ([`42cbbd7`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/42cbbd73728acfa6357c163d03eddc50ea81dfcf))
+
+- Add vasp support
+  ([`c65f0d3`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/c65f0d32127ec07eb22214a26419d54b7feb015d))
+
+- Redundant import
+  ([`fafb172`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/fafb172c289bbf507f37fb3e7ca96630f38b485b))
+
+- Update changelog
+  ([`b0ceef7`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/b0ceef7f38db7dc3ea02c8b7b013023dc8abd070))
+
+- Update docs
+  ([`c65f0d3`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/c65f0d32127ec07eb22214a26419d54b7feb015d))
+
+- Update docs for new version
+  ([`003d002`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/003d0025f7736af710f52df2cc14d9400aee5969))
+
+- Update examples
+  ([`33f17c9`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/33f17c91c45d51374fe643a2d08bcba21c9207e2))
+
+- Update README and dependencies
+  ([`f6f2223`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/f6f2223546bf6b4045ac2f8c1f999bc60affa059))
+
+- Update readthedocs config
+  ([`0c9c20e`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/0c9c20e12705b86cdc7705506da1eb3b1b5f3559))
+
+- Update release setting
+  ([`cb0da95`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/cb0da950716b1feeff09aebf1b7b5d6d2a95f67c))
+
+
+## Unreleased
+
+### Bug Fixes
+
+- Update changlog setting
+  ([`51a3a1e`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/51a3a1e593311da7dbb634f68a6abc78e43c16cc))
+
+- Update docs for new version
+  ([`003d002`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/003d0025f7736af710f52df2cc14d9400aee5969))
+
+- Update examples
+  ([`33f17c9`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/33f17c91c45d51374fe643a2d08bcba21c9207e2))
+
+- Update readthedocs config
+  ([`0c9c20e`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/0c9c20e12705b86cdc7705506da1eb3b1b5f3559))
+
+- Update release setting
+  ([`cb0da95`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/cb0da950716b1feeff09aebf1b7b5d6d2a95f67c))
+
+
+## v0.9.2 (2025-09-12)
+
+### Bug Fixes
+
+- Issues with select_confs
+  ([`ca324ab`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/ca324ab22f16d5ea13d63238e4afe90159c57b7f))
+
 
 ## v0.6.1 (2025-04-07)
 

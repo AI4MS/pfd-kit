@@ -1,4 +1,3 @@
-from recommonmark.parser import CommonMarkParser
 from importlib.metadata import version as get_version
 import os
 import sys
@@ -20,17 +19,12 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
-    "recommonmark",
+    "myst_parser"
 ]
 
-templates_path = ["_templates"]
+# templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
-# Source file parsers
-source_suffix = {
-    ".rst": "restructuredtext",
-    ".md": "markdown",
-}
 
 autodoc_default_options = {
     "members": True,
@@ -43,6 +37,10 @@ autodoc_default_options = {
 
 # html_theme = "alabaster"
 html_theme = "sphinx_rtd_theme"
+html_theme_options = {
+    "rightsidebar": "true",
+    "relbarbgcolor": "black"
+}
 html_static_path = ["_static", "images"]
 # html_css_files = ['custom.css']
 
