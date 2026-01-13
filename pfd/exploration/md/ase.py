@@ -16,8 +16,9 @@ from ase.md.nptberendsen import NPTBerendsen
 from ase.md.velocitydistribution import MaxwellBoltzmannDistribution
 from ase.optimize import LBFGS
 from ase.filters import UnitCellFilter, ExpCellFilter
-
 from pfd.constants import ase_log_name, ase_traj_name
+
+
 
 @dataclass
 class MDParameters:
@@ -250,7 +251,6 @@ class MDRunner:
         total_elapsed = time.time() - total_start
         self.logger.info(f"#### Total MD simulation completed in {total_elapsed:.2f} s")
 
-
     def run_opt_LBFGS(self, 
         params: MDParameters,
         log_file: str = ase_log_name,
@@ -260,7 +260,7 @@ class MDRunner:
         # add unitcell filters
         ucf = UnitCellFilter(
             self.atoms,
-            scalar_pressure=params.scalar_pressure,
+            scalar_pressure=params.scalar_pressure*units.GPa,
             constant_volume=params.constant_volume,
             **params.filter_config
             )

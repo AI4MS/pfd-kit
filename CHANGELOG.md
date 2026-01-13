@@ -2,6 +2,73 @@
 
 <!-- version list -->
 
+## v0.10.9 (2026-01-07)
+
+### Bug Fixes
+
+- Issues with entropy filtering with gpu
+  ([`a6cb151`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/a6cb151f48ce1532308b00a25cb8b62420f3144b))
+
+
+## v0.10.8 (2026-01-05)
+
+### Bug Fixes
+
+- Issues with pressure unit
+  ([`d3f7fbd`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/d3f7fbdb8df07ac4b8b54975107171c5cafa0388))
+
+- Update resubmit args
+  ([`0565655`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/0565655dceede963bd5764b502a61c6227029ce5))
+
+
+## v0.10.7 (2025-12-24)
+
+### Bug Fixes
+
+- Update calypso docs
+  ([`1f16018`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/1f16018a12a90a348d5420524d5c1791488a66e5))
+
+
+## v0.10.6 (2025-12-03)
+
+### Bug Fixes
+
+- Using default vasp KSPACING
+  ([`9a87127`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/9a87127871e4ed405b91f2424cab087679aa24c7))
+
+
+## v0.10.5 (2025-10-23)
+
+### Bug Fixes
+
+- Handle None paths in collect.py
+  ([`8a64953`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/8a649535a6efaf7133c7f32ef3690a76b89fe381))
+
+
+## v0.10.4 (2025-10-22)
+
+### Bug Fixes
+
+- Issues with sorted atoms
+  ([`0859542`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/0859542fe318dcb8eff470709bd2c1e130b46ee3))
+
+
+## v0.10.3 (2025-10-09)
+
+### Bug Fixes
+
+- Issues with ase inference
+  ([`16d1894`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/16d18946c51de889fb1e9261c37f7718ee2a9496))
+
+
+## v0.10.2 (2025-09-25)
+
+### Bug Fixes
+
+- Issues with ase task group number
+  ([`811c770`](https://github.com/ruoyuwang1995nya/pfd-kit/commit/811c77059e8976ae031b7dfe8e212ce434f02882))
+
+
 ## v0.10.1 (2025-09-20)
 
 ### Bug Fixes
